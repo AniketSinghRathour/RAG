@@ -1,6 +1,6 @@
 # SARAL.ai
 
-** Demo Link :- ** https://saralai.vercel.app/
+### Demo Link :- https://saralai.vercel.app/
 
 This is a **RAG (Retrieval-Augmented Generation)** based prototype application for creating a common knowledge base for Ministry of Education and related organizations from their various documents, rules, regulations, and large databases.
 
