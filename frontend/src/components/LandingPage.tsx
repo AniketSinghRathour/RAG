@@ -37,7 +37,7 @@ export default function LandingPage({ onLoginClick }: LandingPageProps) {
             </div>
             <Button 
               onClick={onLoginClick} 
-              className="bg-white/10 hover:bg-white/20 backdrop-blur-xl border border-white/20 text-white shadow-2xl"
+              className="bg-white/10 hover:bg-white/20 backdrop-blur-xl border border-white/20 text-white shadow-2xl cursor-pointer"
             >
               Login
             </Button>
@@ -77,20 +77,26 @@ export default function LandingPage({ onLoginClick }: LandingPageProps) {
               <Button 
                 onClick={onLoginClick}
                 size="lg"
-                className="relative group bg-gradient-to-br from-white/10 to-pink-600 hover:from-white/10 hover:to-pink-500 text-lg px-8 py-6 shadow-2xl shadow-pink-600/25"
+                className="relative group bg-gradient-to-br from-white/10 to-pink-600 hover:from-white/10 hover:to-pink-500 text-lg px-8 py-6 shadow-2xl shadow-pink-600/25 cursor-pointer overflow-hidden"
               >
                 <span className="relative z-10 flex items-center gap-2">
                   Get Started <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </span>
                 <div className="absolute inset-0 rounded-lg bg-gradient-to-br from-white/10 to-pink-600 blur-xl opacity-50 group-hover:opacity-75 transition-opacity"></div>
               </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="bg-white/5 backdrop-blur-xl border-white/20 hover:bg-white/10 text-white text-lg px-8 py-6"
+              <a href="https://youtu.be/bN9i3VQWVm4"
+                target="_blank"
+                rel="noopener noreferrer"
               >
-                View Demo
-              </Button>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="bg-white/5 backdrop-blur-xl border-white/20 hover:bg-white/10 text-white text-lg px-8 py-6 cursor-pointer"
+                >
+                  View Demo
+                </Button>
+              </a>
+              
             </div>
 
             {/* Stats - Glassmorphism Cards */}
