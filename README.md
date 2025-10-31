@@ -1,19 +1,24 @@
-#SARAL.ai
-This is a **RAG(Retrieval-Augmented Generation)** based prototype application fro creating a common knowledge base for Ministry of Education and realted organizations from thier various documents, rules, regulations and larhe databases.
+# SARAL.ai
+
+This is a **RAG (Retrieval-Augmented Generation)** based prototype application for creating a common knowledge base for Ministry of Education and related organizations from their various documents, rules, regulations, and large databases.
+
 Hence,
- - automating the document retrieval process
- - reducing the delays due to retrieval of documents
- - faster Decision making and Reduction in loss of man-power in this process
- - Identification & Resolution of conflicting rules, regulations among different organizations
- - Refrences for each response to ensure the credibility and GuardRailing the models
+- automating the document retrieval process
+- reducing the delays due to retrieval of documents
+- faster decision making and reduction in loss of man-power in this process
+- identification & resolution of conflicting rules, regulations among different organizations
+- references for each response to ensure credibility and guard-railing the models
 
-##Tech Stack :-
-React.JS, FastAPI, Cloudinary, LangChain, chromaDB, Gemini-2.5 API and Sentence-transformers Embeddings Model for embeddings
+## Tech Stack :-
+React.JS, FastAPI, Cloudinary, LangChain, ChromaDB, Gemini-2.5 API and Sentence-Transformers Embeddings Model for embeddings
 
-##Architecture of our RAG system :-
+## Architecture of our RAG system :-
 ![Architecture Flowchart](./images/architecture.png)
 
-##UI Images :-
-<img src="./images/landing.png" width="32%">
-<img src="./images/dashboard.png" width="32%">
-<img src="./images/chat.png" width="32%">
+## UI Images :-
+<div style="display: flex; gap: 1%; justify-content: center;">
+  <img src="./images/landing.png" width="32%" />
+  <img src="./images/dashboard.png" width="32%" />
+  <img src="./images/chat.png" width="32%" />
+</div>
+
