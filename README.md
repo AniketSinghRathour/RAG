@@ -1,4 +1,4 @@
-#**SARAL.ai** <br>
+#SARAL.ai
 This is a **RAG(Retrieval-Augmented Generation)** based prototype application fro creating a common knowledge base for Ministry of Education and realted organizations from thier various documents, rules, regulations and larhe databases.
 Hence,
  - automating the document retrieval process
@@ -7,13 +7,13 @@ Hence,
  - Identification & Resolution of conflicting rules, regulations among different organizations
  - Refrences for each response to ensure the credibility and GuardRailing the models
 
-##**Tech Stack :-**
+##Tech Stack :-
 React.JS, FastAPI, Cloudinary, LangChain, chromaDB, Gemini-2.5 API and Sentence-transformers Embeddings Model for embeddings
 
-##**Architecture of our RAG system :-**
+##Architecture of our RAG system :-
 ![Architecture Flowchart](./images/architecture.png)
 
-##**UI Images :-** <br>
-<img src="./images/landing.png" width="33%">
-<img src="./images/dashboard.png" width="33%">
-<img src="./images/chat.png" width="33%">
+##UI Images :-
+<img src="./images/landing.png" width="32%">
+<img src="./images/dashboard.png" width="32%">
+<img src="./images/chat.png" width="32%">
